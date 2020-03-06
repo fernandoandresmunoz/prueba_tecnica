@@ -1,0 +1,21 @@
+<p>
+    <a href="/load">load</a>
+</p>
+
+<div >
+    {% for pet in pets  %}
+
+    <div style='width: 250px; border: 1px solid darkgray; margin-bottom: 1.5em; padding: 1em'> 
+        
+        <div>
+            <img style='width:100px' src="{{ pet.photo.url }}" alt="">
+        </div>
+        
+        <p>
+            {{ pet.nombre_de_la_mascota }}
+        </p>
+        <button>votar</button>
+    
+    </div>
+    {% endfor %}
+</div>

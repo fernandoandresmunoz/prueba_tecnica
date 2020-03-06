@@ -1,0 +1,3 @@
+Está implementado para subir imágenes de mascotas, pero falta la parte para editar y también la funcionalidad para poder votar. 
+Mi feedback es que me costó un poco porque hay cosas que hace tiempo que no 
+uso en Django, como los ModelForm y también algo que me tomó un poco de tiempo fue configurar el servidor de desarrollo para servir las imagenes. En los dos últimos proyectos grandes en que he trabajado me ha tocado usar Django como servidor para la APIS usando django rest, por lo que hubieron muchas cosas que tuve que buscar en stackoverflow y me impidió concluir con toda la funcionalidad.

@@ -1,0 +1,10 @@
+<p><a href="/">home</a></p>
+
+<form method="post" enctype="multipart/form-data">
+{% csrf_token %}
+    <table>
+        {{ petForm.as_table }}
+    </table>
+
+    <input type="submit" value=save>
+</form>
